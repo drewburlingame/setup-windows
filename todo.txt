@@ -1,0 +1,6 @@
+- package to modify explorer settings
+- script to install additional windows utils
+- script to install developer utils
+- script to install all packages from a target folder
+  - script to target daptiv dev tools
+  - script to target personal dev tools
