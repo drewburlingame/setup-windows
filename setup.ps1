@@ -1,4 +1,4 @@
-set-executionpolicy unrestricted
+#http://bit.ly/1064hUe
 
 iex ((new-object net.webclient).DownloadString('http://bit.ly/psChocInstall'))
 
@@ -10,8 +10,8 @@ cinst git-credential-winstore
 cinst gitextensions
 cinst curl
 cinst cmdaliases
+cinst 7zip.install
 cinst notepadplusplus.install
 cinst virtualclonedrive
-cinst 7zip.install
 cinst webpicommandline
 cinst nuget.commandline
