@@ -11,3 +11,5 @@ Steps
 2) run the following: `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "set-executionpolicy unrestricted"`
 
 3) run the following: `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('http://bit.ly/1064hUe'))"`
+
+installs chocolatey (a windows package manager) and then installs basic windows packages.
