@@ -1,6 +1,6 @@
-set-executionpolicy unrestricted
+#set-executionpolicy unrestricted
 
-iex ((new-object net.webclient).DownloadString('http://bit.ly/psChocInstall'))
+#iex ((new-object net.webclient).DownloadString('http://bit.ly/psChocInstall'))
 
 $env:Path = $env:Path + ";c:\chocolatey\bin"
 
@@ -15,6 +15,3 @@ cinst virtualclonedrive
 cinst 7zip.install
 cinst webpicommandline
 cinst nuget.commandline
-
-chocolatey sources add -name drew-nuget -source "https://github.com/drewburlingame/setup-windows/nuget"
-chocolatey sources add -name daptiv-nuget -source "https://github.com/daptiv/setup-windows"

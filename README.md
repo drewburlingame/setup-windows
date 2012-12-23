@@ -8,6 +8,6 @@ Steps
 =============
 1) open powershell as administrator
 
-2) run the following: `set-executionpolicy unrestricted`
+2) run the following: `set-executionpolicy unrestricted` and type `Y`
 
-3) run the following: `iex ((new-object net.webclient).DownloadString('https://github.com/drewburlingame/setup-windows/blob/master/setup.ps1'))`
+3) run the following: `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://github.com/drewburlingame/setup-windows/blob/master/setup.ps1'))"`
