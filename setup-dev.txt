@@ -1,0 +1,16 @@
+#windows dev features
+cinst webpi IIS7
+
+#dev utils
+cinst dotpeek
+cinst p4merge
+cinst powergui
+cinst fiddler
+cinst linqpad4
+cinst firefox
+cinst nodejs.install
+
+cinst rake -source ruby
+cinst bundler -source ruby
+cinst compass -source ruby
+cinst uglifier -source ruby

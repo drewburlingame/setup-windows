@@ -17,3 +17,6 @@ cinst notepadplusplus.install
 cinst virtualclonedrive
 cinst webpicommandline
 cinst nuget.commandline
+
+#The OS gem allows for some easy telling if you’re on windows or not.
+cinst os -source ruby

@@ -1,0 +1,5 @@
+cinst googlechrome
+cinst ccleaner
+cinst lockhunter
+cinst windirstat
+cinst sysinternals
