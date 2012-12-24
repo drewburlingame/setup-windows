@@ -1,5 +1,7 @@
 #http://bit.ly/1064hUe
 
+set-executionpolicy unrestricted
+
 iex ((new-object net.webclient).DownloadString('http://bit.ly/psChocInstall'))
 
 $env:Path = $env:Path + ";c:\chocolatey\bin"
