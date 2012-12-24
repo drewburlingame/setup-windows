@@ -5,8 +5,8 @@ set-executionpolicy unrestricted
 mkdir c:\tools
 mkdir c:\tools\chocolatey
 
-$env:chocolatey_bin_root = "c:\tools"
-$env:ChocolateyInstall = "c:\tools\chocolatey"
+[Environment]::SetEnvironmentVariable("chocolatey_bin_root", "c:\tools", "Machine")
+[Environment]::SetEnvironmentVariable("ChocolateyInstall", "c:\tools\chocolatey", "Machine")
 
 iex ((new-object net.webclient).DownloadString('http://bit.ly/psChocInstall'))
 
