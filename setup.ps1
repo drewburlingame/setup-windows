@@ -2,6 +2,12 @@
 
 set-executionpolicy unrestricted
 
+mkdir c:\tools
+mkdir c:\tools\chocolatey
+
+$env:chocolatey_bin_root = "c:\tools"
+$env:ChocolateyInstall = "c:\tools\chocolatey"
+
 iex ((new-object net.webclient).DownloadString('http://bit.ly/psChocInstall'))
 
 $env:Path = $env:Path + ";c:\chocolatey\bin"
@@ -24,9 +30,10 @@ cinst virtualclonedrive
 cinst webpicommandline
 cinst nuget.commandline
 cinst linkshellextension
-cinst greenshot
+cinst jing
 cinst teamviewer
 cinst swissfileknife
+cinst filezilla
 
 #The OS gem allows for some easy telling if you’re on windows or not.
 cinst os -source ruby
