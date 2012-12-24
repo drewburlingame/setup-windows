@@ -1,7 +1,10 @@
+#http://bit.ly/UnTyRO
+
 #windows dev features
 cinst webpi IIS7
 
 #dev utils
+cinst gitextensions
 cinst dotpeek
 cinst p4merge
 cinst powergui

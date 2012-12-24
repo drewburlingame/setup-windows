@@ -5,3 +5,4 @@ cinst ccleaner
 cinst lockhunter
 cinst windirstat
 cinst sysinternals
+cinst logparser.lizardgui
