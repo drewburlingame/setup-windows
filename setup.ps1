@@ -17,7 +17,6 @@ $env:Path = $env:Path + ";c:\chocolatey\bin"
 #  disable: shutdown tracker, IE enhanced security config
 #  enable: remote desktop, 
 #  set explorer options, small taskbar
-cinst jivkok.boxstarter1
 cinst ruby
 cinst python
 cinst git-credential-winstore
