@@ -1,9 +1,15 @@
 #http://bit.ly/{to-be-defined}
 
-Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
-Enable-RemoteDesktop
-
 cinst boxstarter.chocolatey
+
+#-- win config
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+Disable-InternetExplorerESC
+Enable-MicrosoftUpdate
+Enable-RemoteDesktop
+Disable-UAC
+Set-TaskbarOptions -Size Small
+Install-WindowsUpdate -acceptEula -SuppressReboots
 
 #-- utilities
 cinst 7zip.install
