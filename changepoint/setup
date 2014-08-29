@@ -14,10 +14,13 @@ Install-WindowsUpdate -acceptEula -SuppressReboots
 #-- utilities
 cinst 7zip.install
 cinst 7zip.commandline
+cinst ccleaner
 cinst conemu
 cinst curl
+cinst gow
 cinst notepadplusplus.install
 cinst sysinternals
+cinst sumatrapdf
 cinst windirstat
 
 #-- dev tools
