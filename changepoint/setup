@@ -1,0 +1,27 @@
+#http://bit.ly/{to-be-defined}
+
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Enable-RemoteDesktop
+
+cinst boxstarter.chocolatey
+
+#-- utilities
+cinst 7zip.install
+cinst 7zip.commandline
+cinst conemu
+cinst curl
+cinst notepadplusplus.install
+cinst sysinternals
+cinst windirstat
+
+#-- dev tools
+cinst p4merge
+cinst gitextensions
+cinst git-credential-winstore
+cinst dotpeek
+cinst fiddler4
+cinst linqpad4
+cinst nuget.commandline
+cinst nugetpackageexplorer
+cinst windbg
+cinst ilmerge
