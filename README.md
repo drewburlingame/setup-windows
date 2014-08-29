@@ -12,3 +12,10 @@ START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/dre
 
 ###TODO
 update vagrant to share user dir, create boxstarter package and store in boxen user manifest and add that dir as a boxstarter repo
+
+
+review these chocolatey packages for ideas
+http://chocolatey.org/packages/EthanBrown.DevTools.Web
+http://chocolatey.org/packages/jivkok.dev1
+http://chocolatey.org/packages/jivkok.Shell1
+http://chocolatey.org/packages?q=boxstarter
