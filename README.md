@@ -3,18 +3,7 @@ setup-windows
 
 scripts to setup a base windows image
 
-these scripts use 
+these scripts use http://boxstarter.org to install chocolatey packages and modify settings on the machine
 
-
-Steps
-=============
-1) open cmd as administrator
-
-2) run the following: 
-> `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('http://bit.ly/12JDVpX'))"`
-
-3) to install extra windows utilities:
-> `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('http://bit.ly/Y55ci9'))"`
-
-3) to install dev utilities:
-> `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('http://bit.ly/UnTyRO'))"`
+Run the following from a cmd prompt to install run the changepoint setup script for my dev machine:
+> START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/drewburlingame/setup-windows/master/changepoint/setup
