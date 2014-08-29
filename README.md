@@ -6,8 +6,9 @@ scripts to setup a base windows image
 these scripts use http://boxstarter.org to install chocolatey packages and modify settings on the machine
 
 Run the following from a cmd prompt to install run the changepoint setup script for my dev machine:
-> START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/drewburlingame/setup-windows/master/changepoint/setup
-
+```cmd
+START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/drewburlingame/setup-windows/master/changepoint/setup
+```
 
 ###TODO
 update vagrant to share user dir, create boxstarter package and store in boxen user manifest and add that dir as a boxstarter repo
