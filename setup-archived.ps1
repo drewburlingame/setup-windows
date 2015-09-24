@@ -12,15 +12,15 @@ iex ((new-object net.webclient).DownloadString('http://bit.ly/psChocInstall'))
 
 $env:Path = $env:Path + ";c:\chocolatey\bin"
 
-#boxstarter = 
+#boxstarter =
 #  install windows updates
 #  disable: shutdown tracker, IE enhanced security config
-#  enable: remote desktop, 
+#  enable: remote desktop,
 #  set explorer options, small taskbar
 cinst DotNet4.5
 cinst ruby
 cinst python
-cinst git-credential-winstore
+#cinst git-credential-winstore
 cinst curl
 cinst cmdaliases
 cinst 7zip.install
