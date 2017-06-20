@@ -1,0 +1,1 @@
+xcopy /S/Y C:\hosthome\src\setup-windows\changepoint\Notepad++ C:\Users\Administrator\AppData\Roaming\Notepad++
